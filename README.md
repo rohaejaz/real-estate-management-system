@@ -1,27 +1,50 @@
-# FrontEndRealEstate
+# Real Estate Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+A full-stack web application designed to manage real estate property listings, users, and inquiries.  
+This project demonstrates end-to-end web development using modern backend and frontend technologies.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
+The Real Estate Management System allows administrators and users to manage property listings efficiently, 
+handle user interactions, and maintain structured property data.  
+The application follows clean architecture principles and focuses on scalability and maintainability.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
+- User authentication and authorization
+- Property listing management (Create, Read, Update, Delete)
+- Search and filter properties
+- User inquiries and contact management
+- Role-based access (Admin / User)
+- RESTful API integration between frontend and backend
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tech Stack
+**Backend**
+- C#
+- .NET / ASP.NET Core
+- REST APIs
+- Entity Framework
 
-## Running unit tests
+**Frontend**
+- Angular
+- HTML, CSS, TypeScript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Database**
+- SQL Server
 
-## Running end-to-end tests
+**Tools & Practices**
+- Git & GitHub
+- Clean Architecture principles
+- SOLID principles
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Architecture
+The application follows a layered architecture:
+- Presentation Layer (Angular UI)
+- Application Layer (Business Logic)
+- Data Access Layer (Entity Framework & SQL Server)
